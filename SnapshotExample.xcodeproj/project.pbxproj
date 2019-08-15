@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,6 +17,8 @@
 		C0079D58230470F000FD2DE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0079D56230470F000FD2DE1 /* LaunchScreen.storyboard */; };
 		C0079D63230470F000FD2DE1 /* SnapshotExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0079D62230470F000FD2DE1 /* SnapshotExampleTests.swift */; };
 		C0079D6E230470F000FD2DE1 /* SnapshotExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0079D6D230470F000FD2DE1 /* SnapshotExampleUITests.swift */; };
+		C078655C23052AF400BF8B80 /* ImageLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C078655B23052AF400BF8B80 /* ImageLabel.swift */; };
+		C078655F230549A100BF8B80 /* AutoLayoutSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = C078655E230549A100BF8B80 /* AutoLayoutSnapshot.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		C0079D69230470F000FD2DE1 /* SnapshotExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapshotExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0079D6D230470F000FD2DE1 /* SnapshotExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotExampleUITests.swift; sourceTree = "<group>"; };
 		C0079D6F230470F000FD2DE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C078655B23052AF400BF8B80 /* ImageLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLabel.swift; sourceTree = "<group>"; };
+		C078655E230549A100BF8B80 /* AutoLayoutSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayoutSnapshot.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +103,6 @@
 				09C060B059AA79644B5A87DA /* Pods-SnapshotExampleUITests.debug.xcconfig */,
 				381CC25230352611F756F809 /* Pods-SnapshotExampleUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -130,6 +133,7 @@
 			children = (
 				C0079D4D230470EE00FD2DE1 /* AppDelegate.swift */,
 				C0079D4F230470EE00FD2DE1 /* ViewController.swift */,
+				C078655B23052AF400BF8B80 /* ImageLabel.swift */,
 				C0079D51230470EE00FD2DE1 /* Main.storyboard */,
 				C0079D54230470F000FD2DE1 /* Assets.xcassets */,
 				C0079D56230470F000FD2DE1 /* LaunchScreen.storyboard */,
@@ -142,6 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				C0079D62230470F000FD2DE1 /* SnapshotExampleTests.swift */,
+				C078655E230549A100BF8B80 /* AutoLayoutSnapshot.swift */,
 				C0079D64230470F000FD2DE1 /* Info.plist */,
 			);
 			path = SnapshotExampleTests;
@@ -425,6 +430,7 @@
 			files = (
 				C0079D50230470EE00FD2DE1 /* ViewController.swift in Sources */,
 				C0079D4E230470EE00FD2DE1 /* AppDelegate.swift in Sources */,
+				C078655C23052AF400BF8B80 /* ImageLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +438,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C078655F230549A100BF8B80 /* AutoLayoutSnapshot.swift in Sources */,
 				C0079D63230470F000FD2DE1 /* SnapshotExampleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

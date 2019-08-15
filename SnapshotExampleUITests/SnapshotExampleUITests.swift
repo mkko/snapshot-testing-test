@@ -8,6 +8,7 @@
 
 import XCTest
 
+
 class SnapshotExampleUITests: XCTestCase {
 
     override func setUp() {

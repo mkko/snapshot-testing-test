@@ -13,8 +13,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+
+//        on("INJECTION_BUNDLE_NOTIFICATION") {
+//            self.view = MyView()
+//        }
     }
-
-
 }
 
