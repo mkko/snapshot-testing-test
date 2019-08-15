@@ -43,9 +43,9 @@ public class ImageLabel: UIView {
         )
 
         layout(
-            2,
+            4,
             |-emoji-8-label-|,
-            2
+            4
         )
     }
 }
